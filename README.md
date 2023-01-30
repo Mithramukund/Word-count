@@ -18,6 +18,8 @@ The length of the split list should equal the numbe of words in the text file.
 
 ## PROGRAM:
 ```python
+##developed by: S.G.Mithra mukundaa
+##Reference Number: 22005703
 num=0
 with open("git.txt","r") as f1:
     for i in f1:
@@ -25,9 +27,8 @@ with open("git.txt","r") as f1:
         num += len(word)
 print("The number of words are in the file is ",num)
 ```
-### OUTPUT:
-
-
+## OUTPUT:
+![image](https://user-images.githubusercontent.com/121608770/215395558-381fcb98-7e31-41e2-b2ae-eb668a51bf82.png)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
